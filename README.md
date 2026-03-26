@@ -47,6 +47,23 @@ To simulate degraded real-world sensor data and make the model more robust, the 
 
 ---
 
+## How to Run
+
+# Option A: Train the Model From Scratch (Full Workflow)
+*Use this if you want to train the CNN on your own hardware.*
+
+1. **Get the Dataset:** Download the SIXray dataset from Kaggle and extract it to your local machine.
+2. **CRITICAL PATH WARNING:** Before running the training script, you **MUST** open `train_model.py` and your dataset's `data.yaml` file. Update the absolute file paths in these files to point exactly to where you extracted the dataset on *your* PC (e.g., change `C:\Users\YourName\Downloads\...` to your actual path). If you skip this, the script will crash!
+3. **Train the Model:** Run the training script in your terminal:
+
+# Option B: Quick Start (Use Pre-Trained Model)
+*Recommended for Quick Testing.*
+
+1. **Get the Model:** Download our pre-trained folder(run) directly from our Google Drive.
+2. **Place the File:** Drop the folder directly into the root folder of this project (right next to `app.py`).
+
+---
+
 ## 🛠️ Technology Stack
 
 * **Machine Learning:** Python, Ultralytics YOLO11, CNN (Convolutional Neural Networks), PyTorch, OpenCV
