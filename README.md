@@ -3,6 +3,7 @@
 
 ## 🔗 Project Resources
 * **Project Files, ML Modal & Assets:** [Access the Google Drive Folder](https://drive.google.com/drive/folders/1NjCckFIbuuI7864bk9nRbynqcCgcodYT?usp=drive_link)
+* **Video Link:** [Video File in Drive](https://drive.google.com/file/d/1PXL9Yd013BPOXVxOPiQy2nwstyyRT4cx/view?usp=drive_link)
 
 ## 📖 Overview
 CargoSight AI is a real-time, human-in-the-loop threat detection system designed for customs and border security. It assists human operators by instantly analyzing cargo X-ray images to detect concealed objects, calculate a cumulative risk score, and facilitate continuous model improvement through an active-learning feedback loop.
